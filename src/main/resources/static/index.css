@@ -237,6 +237,8 @@ li {
   .language_button::after {
     content: "\f0d7";
     font-family: "Font Awesome 5 Free";
+    position: absolute;
+    top: -1px;
     font-weight: 900;
     font-size: 8px;
     line-height: 30px;
@@ -249,7 +251,7 @@ li {
   }
   
   .footer_linked_list > a {
-    color: #848485;
+    color: #848585;
     font-size: 24px;
     padding-left: 14px;
     border-radius: 50%;
